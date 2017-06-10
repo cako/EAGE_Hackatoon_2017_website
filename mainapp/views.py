@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render
 from django.views.generic.base import View, TemplateView
 from django.core.files.storage import FileSystemStorage
@@ -11,11 +12,17 @@ def get_images_list(directory):
     files.sort(key=os.path.getmtime)
     images_list = [ os.path.basename(x) for x in files[::-1] ]
     return images_list
+=======
+import cv2
+from django.shortcuts import render
+from django.views.generic.base import View, TemplateView
+>>>>>>> a78ddea0a02171f34cb4356bc34b12f7bbfce4e4
 
 class IndexView(TemplateView):
 
     template_name = 'index.html'
     title = "It's not our FAULT!"
+<<<<<<< HEAD
 
     def get_context_data(self, **kwargs):
         context = super(IndexView, self).get_context_data(**kwargs)
@@ -44,3 +51,11 @@ class IndexView(TemplateView):
             context['result_file_url'] = result_file_url
 
         return super(TemplateView, self).render_to_response(context)
+=======
+    def get_context_data(self, **kwargs):
+        context = super(IndexView, self).get_context_data(**kwargs)
+        context['title'] = self.title
+        context['active'] = 'index'
+        return context
+
+>>>>>>> a78ddea0a02171f34cb4356bc34b12f7bbfce4e4

@@ -2802,11 +2802,16 @@
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
 		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), url("images/logo.png");
 =======
 		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 >>>>>>> b16b0aa073ddfd6bf58cd5d46fc60b6c2d4fb315
+=======
+		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), url("images/logo.png");
+>>>>>>> a78ddea0a02171f34cb4356bc34b12f7bbfce4e4
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2957,11 +2962,16 @@
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
 <<<<<<< HEAD
+<<<<<<< HEAD
 			/*background-image: linear-gradient(45deg, #4fa49a, #4361c2);*/
 			background-image: url("images/logo.png");
 =======
 			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
 >>>>>>> b16b0aa073ddfd6bf58cd5d46fc60b6c2d4fb315
+=======
+			/*background-image: linear-gradient(45deg, #4fa49a, #4361c2);*/
+			background-image: url("images/logo.png");
+>>>>>>> a78ddea0a02171f34cb4356bc34b12f7bbfce4e4
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2999,6 +3009,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
         background-image: url("images/overlay2.png"), url("images/overlay4.svg"), url("images/logo.png");
         background-position: top left,						center center,					center center;
@@ -3006,6 +3017,11 @@
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 >>>>>>> b16b0aa073ddfd6bf58cd5d46fc60b6c2d4fb315
+=======
+		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
+        background-image: url("images/overlay2.png"), url("images/overlay4.svg"), url("images/logo.png");
+        background-position: top left,						center center,					center center;
+>>>>>>> a78ddea0a02171f34cb4356bc34b12f7bbfce4e4
 		background-size: auto,							cover,							cover;
 		text-align: center;
 	}
